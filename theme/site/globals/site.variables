@@ -1,0 +1,26 @@
+@import url('../extras/custom.variables');
+
+/*-------------------
+       Fonts
+--------------------*/
+@fontName: 'Comic Neue';
+@googleFontName: 'Comic+Neue';
+
+/*-------------------
+      Base Sizes
+--------------------*/
+
+/* This is the single variable that controls them all */
+@emSize: 14px;
+
+/* The size of page text  */
+@fontSize: 14px;
+
+
+/*-------------------
+      Site Colors
+--------------------*/
+
+@tealBackground: @header-background; // Palette: Breadcrumbs
+@pageBackground: @page-background;
+@linkColor: @footer-background;

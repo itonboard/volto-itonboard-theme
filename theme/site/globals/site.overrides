@@ -1,0 +1,10 @@
+#main {
+  letter-spacing: .1em;
+}
+
+div#toolbar .pastanaga-menu-list li {
+  a,
+  button {
+    font-family: @fontName;
+  }
+}

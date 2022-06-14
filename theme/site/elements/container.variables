@@ -1,0 +1,3 @@
+@tabletWidth: 100%;
+@computerWidth: 100%;
+@largeMonitorWidth: 100%;
