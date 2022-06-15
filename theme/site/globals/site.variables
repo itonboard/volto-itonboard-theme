@@ -1,10 +1,13 @@
 @import url('../extras/custom.variables');
 
+/*******************************
+         Site Settings
+*******************************/
+
 /*-------------------
        Fonts
 --------------------*/
-@fontName: 'Comic Neue';
-@googleFontName: 'Comic+Neue';
+@fontName: 'Comfortaa';
 
 /*-------------------
       Base Sizes
@@ -16,11 +19,56 @@
 /* The size of page text  */
 @fontSize: 14px;
 
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@primaryColor        : @iob-blue;
+@secondaryColor      : @black;
+@lightPrimaryColor   : @iob-lighter-blue;
+@lightSecondaryColor : @lightBlack;
+
+/*--------------
+  Page Heading
+---------------*/
+
+@h1 : unit((4.67 / 1.25), rem); // adjust base of our rem values to 14px (14px/11.2px => 1.25)
+@h2 : unit((3.67 / 1.25), rem);
+@h3 : unit((2.5 / 1.25), rem);
+@h4 : unit((1.58 / 1.25), rem);
+@h5 : unit((0.5 / 1.25), rem);
+
+/*-------------------
+       Links
+--------------------*/
+@linkColor: @iob-blue;
 
 /*-------------------
       Site Colors
 --------------------*/
 
-@tealBackground: @header-background; // Palette: Breadcrumbs
-@pageBackground: @page-background;
-@linkColor: @footer-background;
+/*---  Colors  ---*/
+@orange           : @iob-orange; // Palette: reddishOrange
+@yellow           : @iob-yellow; // Palette: goldenRod
+@green            : @iob-green; // Palette: darkPastelGreen
+@blue             : @iob-blue; // Palette: Plone (tealBlue/cerulean)
+@pink             : @iob-pink; // Palette: darkHotPink
+
+/*--- Colored Backgrounds ---*/
+@tealBackground: @iob-lightest-blue; // Palette: Breadcrumbs
+@pageBackground: @iob-white;
+
+
+/*******************************
+           Power-User
+*******************************/
+
+/*-------------------
+    Emotive Colors
+--------------------*/
+
+/* Warning */
+@warningBorderColor     : @iob-yellow;
+@warningBackgroundColor : @iob-yellow;
+@warningHeaderColor     : @black;
+@warningTextColor       : @black;

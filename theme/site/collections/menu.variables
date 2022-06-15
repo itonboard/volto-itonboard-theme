@@ -1,0 +1,14 @@
+/*******************************
+             Menu
+*******************************/
+
+/*--------------
+     Types
+---------------*/
+
+/* Pointing */
+@secondaryPointingActiveBorderColor: @blue;
+@secondaryPointingActiveTextColor: @black;
+@secondaryPointingActiveFontWeight: @normal;
+
+
