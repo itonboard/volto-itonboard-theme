@@ -1,3 +1,20 @@
-@header-background: #fed84d;
-@footer-background: #2382c3;
-@page-background: #e9f4fb;
+/*-------------------
+   Custom Variables
+--------------------*/
+
+/*---  Colors  ---*/
+@iob-white: #fff;
+@iob-grey: #f0f0f0;
+@iob-black: #000;
+@iob-yellow: #ffcc00;
+@iob-orange: #ea5b0c;
+@iob-pink: #b92864;
+@iob-green: #a2ba1c;
+@iob-blue: #2382c3;
+
+/*---  Light Colors  ---*/
+@iob-light-grey: #f1f3f6;
+@iob-light-yellow: #ffdd67;
+@iob-light-blue: #0595D2;
+@iob-lighter-blue: #5ba0d2;
+@iob-lightest-blue: #e0f2fa;
