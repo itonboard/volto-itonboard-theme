@@ -1,1 +1,0 @@
-@grey: @footer-background; // TODO: avoid overriding generic color variables
