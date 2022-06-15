@@ -33,12 +33,12 @@ const Footer = ({ intl }) => {
       vertical
       padded
       inverted
-      color="grey"
+      color="blue"
       textAlign="center"
       id="footer"
     >
       <Container>
-        <Segment basic inverted color="grey" className="discreet">
+        <Segment basic inverted color="blue" className="discreet">
           <FormattedMessage
             id="The {plonecms} is {copyright} 2000-{current_year} by the {plonefoundation} and friends."
             defaultMessage="The {plonecms} is {copyright} 2000-{current_year} by the {plonefoundation} and friends."
