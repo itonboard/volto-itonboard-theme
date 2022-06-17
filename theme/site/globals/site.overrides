@@ -1,0 +1,10 @@
+div#toolbar {
+  .pastanaga-menu-list {
+    li {
+      a,
+      button {
+        font-family: @fontName;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.ui.form {
+  .searchbox.field {
+    .ui.input {
+      input {
+        width: 100%;
+      }
+    }
+  }
+}

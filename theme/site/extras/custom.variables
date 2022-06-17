@@ -18,3 +18,7 @@
 @iob-light-blue: #0595D2;
 @iob-lighter-blue: #5ba0d2;
 @iob-lightest-blue: #e0f2fa;
+
+
+// helper variable to convert units from layout (layout uses 11.2px as base font size)
+@layoutFontRatio: (@fontSize/11.2);

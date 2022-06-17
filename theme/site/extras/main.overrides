@@ -1,4 +1,4 @@
-@imagePath : '../../site/assets/images'; // TODO: Not sure how to globally define this
+@imagePath: '../../site/assets/images'; // TODO: Not sure how to globally define this
 
 .documentFirstHeading {
   border-bottom: none;
@@ -10,15 +10,35 @@
 
 .content-area {
   h2 {
-    background-image: url("@{imagePath}/background-blue.jpg");
     display: inline-block;
-    background-size: auto 4.8rem;
-    background-repeat: repeat-x;
-    line-height: 4.8rem;
+    background-image: url("@{imagePath}/background-blue.jpg");
+    background-size: auto unit((6 / @layoutFontRatio), rem);
+    background-repeat: repeat;
+    line-height: unit((6 / @layoutFontRatio), rem);
     padding-left: 7px;
     padding-right: 7px;
     margin-left: -7px;
     letter-spacing: 0.08rem;
-    margin-top: 6.4rem;
+    margin-top: 3.2rem;
+  }
+
+  h3 {
+    color: #0595D2;
+    line-height: 3.04rem;
+  }
+
+  ul {
+    width: 100%;
+    display: inline-block;
+
+    li {
+      background-image: url("@{imagePath}/background-blue.jpg");
+      background-size: auto 2.4rem;
+      background-repeat: repeat;
+      line-height: 2.4rem;
+      float: left;
+      width: auto;
+      clear: both;
+    }
   }
 }
