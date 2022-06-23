@@ -1,0 +1,36 @@
+/*Footer*/
+#footer {
+  border-top: 4px solid @iob-lightest-blue;
+  padding: 75px 0 37px 0;
+  margin-top: 15px;
+
+  .ui.grid {
+    .ui.list {
+      .header {
+        font-weight: @bold;
+        padding-bottom: 15px;
+
+        a {
+          color: @grey;
+        }
+      }
+    }
+  }
+
+  .ui.segment {
+    &.partner-logos {
+      a.image {
+        margin-top: 20px;
+        margin-right: 5vw;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: @largestMobileScreen) {
+  #footer {
+    .ui[class*="left aligned"].segment {
+      text-align: center;
+    }
+  }
+}

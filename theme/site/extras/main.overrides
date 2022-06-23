@@ -1,5 +1,6 @@
 @imagePath: '../../site/assets/images'; // TODO: Not sure how to globally define this
 
+/* Reset Volto Page Title Style */
 .documentFirstHeading {
   border-bottom: none;
 
@@ -41,4 +42,9 @@
       clear: both;
     }
   }
+}
+
+/* Sitemap */
+.section-sitemap #page-sitemap ul li {
+  background-repeat: repeat-x;
 }
