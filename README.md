@@ -1,3 +1,5 @@
+## Preview
+![preview image](docs/preview.png)
 
 ## Use in Volto
 
